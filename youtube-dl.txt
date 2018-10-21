@@ -1,0 +1,18 @@
+## Commands for youtube-dl
+
+## -F Get available formats 
+## -f 22 <<720p>>
+
+##  Number videos by playlist index and remove extra characters from file name 
+
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" -f 22 <<URL>>  ## <<-f 22 = 720p>>
+
+## Playlist start and end
+--playlist-start <<Video Number>> --playlist-end <<Video Number>>
+
+## Best audio
+youtube-dl -f bestaudio --extract-audio --audio-format mp3 --audio-quality 0 <<URL>>
+
+
+
+
