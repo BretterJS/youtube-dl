@@ -5,7 +5,7 @@
 
 ##  Number videos by playlist index and remove extra characters from file name 
 
-youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" -f 22 <<URL>>  ## <<-f 22 = 720p>>
+youtube-dl -o "%(playlist_index)s-%(title)s.%(ext)s" <<FORMAT>> <<URL>> 
 
 ## Playlist start and end
 --playlist-start <<Video Number>> --playlist-end <<Video Number>>
