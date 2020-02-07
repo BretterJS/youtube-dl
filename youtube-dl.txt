@@ -1,4 +1,4 @@
--F  ## List available options
+-F  ## List available qulaity options
 
 sudo youtube-dl -U  ## Update on Linux
 
